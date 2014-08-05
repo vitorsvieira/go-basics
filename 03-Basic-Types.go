@@ -6,41 +6,100 @@ import (
 
 func main() {
 
-	//bool
+	//*************************************
+	//bool declaration and initialization
+	//*************************************
+	var winter bool
+	winter = false
 
-	//string
+	var spring bool = true
 
-	//int
+	var summer = true
 
-	//int8
+	autumn := false
 
-	//int16
+	//*************************************
+	//string declaration and initialization
+	//*************************************
+	var name string
+	name = "Gopher"
 
-	//int32
+	var lang string = "Golang"
 
-	//int64
+	var food = "pasta"
 
-	//uint
+	editor := "Sublime Text"
 
-	//uint8
+	//*************************************
+	//int declaration and initialization
+	//*************************************
+	var a, b, c int = 1, 2, 3
 
-	//uint16
+	var x, y, z = 4, 5, 6
 
-	//uint32
+	size := 42
 
-	//uint64
+	//*************************************
+	//int8s declaration and initialization
+	//*************************************
 
-	//uintptr
+	//*************************************
+	//int16 declaration and initialization
+	//*************************************
 
-	//byte(uint8)
+	//*************************************
+	//int32 declaration and initialization
+	//*************************************
 
-	//rune(int8), similar to char
+	//*************************************
+	//int64 declaration and initialization
+	//*************************************
 
-	//float32
+	//*************************************
+	//uint declaration and initialization
+	//*************************************
 
-	//float64
+	//*************************************
+	//uint8 declaration and initialization
+	//*************************************
 
-	//complex64
+	//*************************************
+	//uint16 declaration and initialization
+	//*************************************
 
-	//complex128
+	//*************************************
+	//uint32 declaration and initialization
+	//*************************************
+
+	//*************************************
+	//uint64 declaration and initialization
+	//*************************************
+
+	//*************************************
+	//uintptr declaration and initialization
+	//*************************************
+
+	//*************************************
+	//byte(uint8) declaration and initialization
+	//*************************************
+
+	//*************************************
+	//rune(int8)(similar to char) declaration and initialization
+	//*************************************
+
+	//*************************************
+	//float32 declaration and initialization
+	//*************************************
+
+	//*************************************
+	//float64 declaration and initialization
+	//*************************************
+
+	//*************************************
+	//complex64 declaration and initialization
+	//*************************************
+
+	//*************************************
+	//complex128 declaration and initialization
+	//*************************************
 }

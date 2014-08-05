@@ -14,6 +14,3 @@ func main() {
 
 	fmt.Println("Length: ", length)
 }
-func main() {
-
-}

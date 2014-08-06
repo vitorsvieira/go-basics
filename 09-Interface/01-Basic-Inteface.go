@@ -1,2 +1,9 @@
-package 09-Interface
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+
+}

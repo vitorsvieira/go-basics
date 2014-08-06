@@ -1,2 +1,9 @@
-package 05-Slices
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+
+}

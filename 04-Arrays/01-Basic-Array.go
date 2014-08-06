@@ -1,1 +1,9 @@
-01-Basic-Array
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+}

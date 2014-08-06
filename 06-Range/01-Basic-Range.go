@@ -1,2 +1,9 @@
-package 06-Range
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+
+}

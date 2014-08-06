@@ -1,2 +1,9 @@
-package 08-Methods
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+
+}

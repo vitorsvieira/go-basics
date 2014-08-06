@@ -1,2 +1,9 @@
-package 07-Maps
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+
+}

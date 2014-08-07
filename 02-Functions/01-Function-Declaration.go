@@ -11,6 +11,7 @@ type Employee struct {
 func Register(emp Employee) {
 	fmt.Println("Fullname: ", emp.firstname, emp.lastname)
 	fmt.Println("Language: ", emp.language)
+
 }
 
 func main() {

@@ -46,7 +46,7 @@ Just some of the basics of Golang
 - [99-Best Practices - in progress](https://github.com/vitorsvvv/go-basics)
 
 
-Have a suggestion, question or a request?
+Have a request, suggestion or question?
 
 Drop me an email: vitorsvieira at yahoo.com
 

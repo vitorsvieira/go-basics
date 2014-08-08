@@ -29,7 +29,7 @@ Just some of the basics of Golang
     - [Continue](https://github.com/vitorsvvv/go-basics/blob/master/03-Control-Flow/07-Continue.go)
 - [04-Arrays - in progress](https://github.com/vitorsvvv/go-basics)
 - [05-Slices - in progress](https://github.com/vitorsvvv/go-basics)
-- [06-Range - in progress](https://github.com/vitorsvvv/go-basics)
+- [06-Range](https://github.com/vitorsvvv/go-basics)
 - [07-Maps - in progress](https://github.com/vitorsvvv/go-basics)
 - [08-Methods - in progress](https://github.com/vitorsvvv/go-basics)
 - [09-Interface - in progress](https://github.com/vitorsvvv/go-basics)

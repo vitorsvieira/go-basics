@@ -21,6 +21,11 @@ func main() {
 	fmt.Println("Update: ", UpdateMapValue(m, "John", "Vim"))
 
 	fmt.Println("Delete-> Map Length Now: ", DeleteMapValue(m, "Bob"))
+
+	fmt.Println("Bob Exist? ", NameExist(m, "Bob"))
+	fmt.Println("John Exist? ", NameExist(m, "John"))
+	fmt.Println("NewBob Exist? ", NameExist(m, "NewBob"))
+
 }
 
 func Run() {
@@ -72,4 +77,12 @@ func DeleteMapValue(m map[string]string, name string) (mapLength int) {
 	delete(m, name)
 
 	return len(m)
+}
+
+func NameExist(m map[string]string, name string) (exists bool) {
+
+	if _, exists = m[name]; exists {
+		return exists
+	}
+	return
 }

@@ -4,32 +4,27 @@ import (
 	"fmt"
 )
 
-type Member struct {
-	FirstName string
-	LastName  string
-	Language  string
+type Student struct {
+	FirstName, LastName string
 }
 
-type Renamable interface {
-	Rename(firstName, lastName string)
+type FullNamer interface {
+	Fullname() string
+}
+
+func (student *Student) Fullname() string {
+
+	return fmt.Sprintf("%s %s", student.FirstName, student.LastName)
+}
+
+func CallStudent(f FullNamer) string {
+
+	return fmt.Sprintf("Welcome! %s", f.Fullname())
 }
 
 func main() {
 
-	members := Members{
-		{"Rob", "Pike", "Go"},
-		{"Andrew", "Gerrand", "Go"},
-		{"Robert", "Griesemer", "Go"},
-		{"Brad", "Fitzpatrick", "Go"},
-	}
+	student := &Student{"Rob", "Pike"}
 
-}
-
-func RenameToEmpty(r Renamable) {
-	r.Rename("Empty", "Empty")
-}
-
-func (member *Member) Rename(firstName, lastName string){
-	member.FirstName = firstName
-	member.LastName = lastName
+	fmt.Println(CallStudent(student))
 }

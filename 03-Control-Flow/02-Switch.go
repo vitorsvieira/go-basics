@@ -52,17 +52,17 @@ func GetProgram2(extension string) (program string) {
 }
 
 //Go to folder 09-Interface for basics and examples about Interface
-func SwitchByType(x interface{}) (typename string) {
+func SwitchByType(x interface{}) (typeName string) {
 
 	switch t := x.(type) {
 	case int:
-		typename = reflect.TypeOf(t).String()
+		typeName = reflect.TypeOf(t).String()
 	case string:
-		typename = reflect.TypeOf(t).String()
+		typeName = reflect.TypeOf(t).String()
 	case float64:
-		typename = reflect.TypeOf(t).String()
+		typeName = reflect.TypeOf(t).String()
 	default:
-		typename = "Unknow Type"
+		typeName = "Unknow Type"
 	}
 
 	return

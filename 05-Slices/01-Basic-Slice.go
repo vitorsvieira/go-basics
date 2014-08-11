@@ -5,9 +5,9 @@ import (
 )
 
 type Member struct {
-	firstname string
-	lastname  string
-	language  string
+	FirstName string
+	LastName  string
+	Language  string
 }
 
 func main() {

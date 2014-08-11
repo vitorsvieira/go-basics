@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 type Employee struct {
-	firstname string
-	lastname  string
-	language  string
+	FirstName string
+	LastName  string
+	Language  string
 }
 
 func Register(emp Employee) {
-	fmt.Println("Fullname: ", emp.firstname, emp.lastname)
-	fmt.Println("Language: ", emp.language)
+	fmt.Println("Fullname: ", emp.FirstName, emp.LastName)
+	fmt.Println("Language: ", emp.Language)
 
 }
 

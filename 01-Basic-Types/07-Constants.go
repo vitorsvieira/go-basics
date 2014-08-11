@@ -4,13 +4,13 @@ import (
 	"fmt"
 )
 
-const name = "Golang"
-const shortname = "Go"
+const NAME = "Golang"
+const SHORTNAME = "Go"
 
 const (
-	nickname   = "Gopher"
-	texteditor = "Sublime Text"
-	ide        = "Intellij"
+	NICKNAME   = "Gopher"
+	TEXTEDITOR = "Sublime Text"
+	IDE        = "Intellij"
 )
 const (
 	//iota is a reserved word / keyword that represents untyped integer constants
@@ -24,11 +24,11 @@ const (
 
 func main() {
 
-	fmt.Println(name, shortname)
+	fmt.Println(NAME, SHORTNAME)
 
-	fmt.Println(nickname)
-	fmt.Println(texteditor)
-	fmt.Println(ide)
+	fmt.Println(NICKNAME)
+	fmt.Println(TEXTEDITOR)
+	fmt.Println(IDE)
 
 	fmt.Println(X, Y, Z)
 	fmt.Println(I, J, K)

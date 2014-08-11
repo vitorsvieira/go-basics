@@ -5,18 +5,18 @@ import (
 )
 
 type Employee struct {
-	firstname string
-	lastname  string
-	language  string
+	FirstName string
+	LastName  string
+	Language  string
 }
 
 func Register(emp Employee) {
-	fmt.Println("Fullname: ", GetFullname(emp.firstname, emp.lastname))
-	fmt.Println("Language: ", emp.language)
+	fmt.Println("Fullname: ", GetFullname(emp.FirstName, emp.LastName))
+	fmt.Println("Language: ", emp.Language)
 }
 
-func GetFullname(firstname, lastname string) string {
-	return firstname + " " + lastname
+func GetFullname(firstName, lastName string) string {
+	return firstName + " " + lastName
 }
 
 func main() {

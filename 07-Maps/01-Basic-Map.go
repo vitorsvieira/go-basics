@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("FindMapValue2: ", FindMapValue(m, "John"))
 	fmt.Println("FindMapValue2: ", FindMapValue(m, "Bob"))
 
-	result, i := AddMapValue(m, "Bob", "Vim")
+	result, i := AddMapValue(m, "NewBob", "NewIDE")
 	fmt.Println("Added: ", result, "Total: ", i)
 
 	fmt.Println("Update: ", UpdateMapValue(m, "Bob", "Vim"))
@@ -32,7 +32,7 @@ func CreateMap() map[string]string {
 	var m map[string]string
 	m = make(map[string]string)
 
-	m["John"] = "Sublime Text"
+	m["John"] = "LiteIDE"
 	m["Bob"] = "IntelliJ"
 
 	return m
@@ -42,7 +42,7 @@ func CreateMap2() map[string]string {
 
 	//shorthand map declaration
 	m := map[string]string{
-		"John": "Sublime Text",
+		"John": "LiteIDE",
 		"Bob":  "IntelliJ",
 	}
 	return m
@@ -53,11 +53,11 @@ func FindMapValue(m map[string]string, name string) (ide string) {
 	return m[name]
 }
 
-func AddMapValue(col map[string]string, name, newIde string) (map[string]string, int) {
+func AddMapValue(m map[string]string, name, newIde string) (map[string]string, int) {
 
-	col{name: newIde}
+	m[name] = newIde
 
-	return col, len(col)
+	return m, len(m)
 }
 
 func UpdateMapValue(m map[string]string, name, newIde string) map[string]string {

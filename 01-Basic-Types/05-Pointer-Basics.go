@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+"fmt"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("Print 1: ", name, ptrname)
 	fmt.Println("Print 2: ", name, *ptrname)
 
-	//change pointer value, reflecting
+	//change pointer value, reflecting on name variable
 	*ptrname = "new name"
 
 	fmt.Println("Print 3: ", name, *ptrname)

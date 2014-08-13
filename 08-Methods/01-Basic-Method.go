@@ -28,7 +28,7 @@ func main() {
 	members.ShowAll()
 
 	fmt.Println("\nRenaming Members...\n")
-	members.ClearNames("-", "-")
+	members.ClearNames("--", "--")
 	fmt.Println("Done!\n====UPDATED LIST====")
 	members.ShowAll()
 
@@ -41,11 +41,9 @@ func (members *Members) Add(member Member) {
 
 func (members *Members) ClearNames(firstName, lastName string) {
 
-	m := *members
-
-	for i := 0; i < len(m); i++ {
-		m[i].FirstName = firstName
-		m[i].LastName = lastName
+	for i := 0; i < len(*members); i++ {
+		(*members)[i].FirstName = firstName
+		(*members)[i].LastName = lastName
 	}
 }
 

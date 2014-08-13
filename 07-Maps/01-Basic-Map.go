@@ -11,16 +11,13 @@ func main() {
 	fmt.Println("FindMapValue: ", FindMapValue(m, "Bob"))
 	fmt.Println("FindMapValue: ", FindMapValue(m, "John"))
 
-	fmt.Println("FindMapValue2: ", FindMapValue(m, "John"))
-	fmt.Println("FindMapValue2: ", FindMapValue(m, "Bob"))
-
 	result, i := AddMapValue(m, "NewBob", "NewIDE")
 	fmt.Println("Added: ", result, "Total: ", i)
 
 	fmt.Println("Update: ", UpdateMapValue(m, "Bob", "Vim"))
 	fmt.Println("Update: ", UpdateMapValue(m, "John", "Vim"))
 
-	fmt.Println("Delete-> Map Length Now: ", DeleteMapValue(m, "Bob"))
+	fmt.Println("Deleted! Map Length Now: ", DeleteMapValue(m, "Bob"))
 
 	fmt.Println("Bob Exist? ", NameExist(m, "Bob"))
 	fmt.Println("John Exist? ", NameExist(m, "John"))

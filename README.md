@@ -8,7 +8,7 @@ Just some of the basics of Golang
     - [Hello World](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/01-Hello-World.go)
     - [Console Input Output](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/02-Console-Input-Output.go)
     - [Basic Types](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/03-Basic-Types.go)
-    - [Converting Types](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/04-Converting-Types.go)
+    - [Converting Types - in progress](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/04-Converting-Types.go)
     - [Pointer Basics](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/05-Pointer-Basics.go)
     - [User Defined Type](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/06-User-Defined-Type.go)
     - [Constants](https://github.com/vitorsvvv/go-basics/blob/master/01-Basic-Types/07-Constants.go)

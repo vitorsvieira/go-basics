@@ -64,6 +64,8 @@ Just some of the basics of Golang
 - [19-String Manipulation - in progress](https://github.com/vitorsvvv/go-basics)
 - [99-Best Practices - in progress](https://github.com/vitorsvvv/go-basics)
 
+---
+
 
 Have a request, suggestion or question?
 
@@ -71,6 +73,8 @@ Drop me an email: vitorsvieira at yahoo.com
 
 You can also find me at [@vitorsvvv](https://twitter.com/vitorsvvv)
 
+
+---
 
 ### References:
 

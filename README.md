@@ -72,6 +72,54 @@ Drop me an email: vitorsvieira at yahoo.com
 You can also find me at [@vitorsvvv](https://twitter.com/vitorsvvv)
 
 
+### References:
+
+- Books (unordered)
+    - [Go Bootcamp](http://www.golangbootcamp.com/)
+    - [Go Course by Russ Cox](http://swtch.com/usenix/go-course.pdf)
+    - [The Go frontend for GCC] (http://talks.golang.org/2010/gofrontend-gcc-summit-2010.pdf)
+    - [Programming in Go: Creating Applications for the 21st Century by Mark Summerfield](http://www.amazon.com/dp/0321774639)
+    - [The Way To Go: A Thorough Introduction To The Go Programming Language by Ivo Balbaert](http://www.amazon.com/dp/1469769166)
+    - [The Go Programming Language Phrasebook by David Chisnall](http://www.amazon.com/dp/0321817141)
+    - [Go Programming by John P. Baugh](http://www.amazon.com/dp/1453636676)
+    - [Go, The Standard Library by Daniel Huckstep](http://thestandardlibrary.com/go.html)
+    - [Learning Go by Miek Gieben](http://www.miek.nl/downloads/Go/)
+    - [Network programming with Go by Jan Newmarch](http://jan.newmarch.name/go/all.pdf)
+    - [An Introduction to Programming in Go](http://www.golang-book.com/assets/pdf/gobook.pdf)
+- Videos
+    - [Pluralsight - The Go Programming Language](http://pluralsight.com/training/Courses/TableOfContents/go)
+    - [Packtpub - Building Your First Application with Go](https://www.packtpub.com/application-development/building-your-first-application-go-video)
+- Sites and Blogs
+    - [golang.org](http://golang.org)
+    - [godoc.org](http://godoc.org)
+    - [go-lang.cat-v.org](http://go-lang.cat-v.org)
+    - [sourcegraph.com](http://sourcegraph.com)
+    - [gophercasts.io](http://gophercasts.io)
+    - [metacasts.tv](http://sourcegraph.com)
+    - [dave.cheney.net](http://dave.cheney.net/)
+    - [goinggo.net](http://goinggo.net)
+    - [blog.labix.org](http://blog.labix.org/)
+    - [nathany.com](http://nathany.com/)
+- Web Frameworks
+    - [Gin](http://gin-gonic.github.io/gin/)
+    - [Gorilla](http://www.gorillatoolkit.org/)
+    - [Martini](http://martini.codegangsta.io/)
+    - [Revel](http://revel.github.io/)
+- IRC Channels
+    - [Gin](http://webchat.freenode.net/?randomnick=1&channels=%23getgin)
+    - [Revel](http://webchat.freenode.net/?channels=revel&uio=d4)
+- Google Groups and Mailing Lists
+    - [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
+    - [golang-dev](https://groups.google.com/forum/#!forum/golang-dev)
+    - [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
+    - [Go Package Management](https://groups.google.com/forum/#!forum/go-package-management)
+    - [golang-bugs](https://groups.google.com/forum/#!forum/golang-bugs)
+    - [golang-codereviews](https://groups.google.com/forum/#!forum/golang-codereviews)
+    - [Gin](getgin@librelist.org)
+    - [Gorilla](http://groups.google.com/group/gorilla-web)
+    - [Martini](https://groups.google.com/forum/#!forum/martini-go)
+    - [Revel](https://groups.google.com/forum/#!forum/revel-framework)
+
 ---
 
 ### License

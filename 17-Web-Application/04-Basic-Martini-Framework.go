@@ -9,16 +9,19 @@ import (
 func IndexHandler(res http.ResponseWriter, req *http.Request) {
 
 	fmt.Fprintln(res, "<h1>Home Page</h1>")
+
 }
 
 func AboutHandler(res http.ResponseWriter, req *http.Request) {
 
 	fmt.Fprintln(res, "<h1>About</h1>")
+
 }
 
 func ContactHandler(res http.ResponseWriter, req *http.Request) {
 
 	fmt.Fprintln(res, "<h1>Contact</h1>")
+
 }
 
 func main() {

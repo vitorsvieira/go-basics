@@ -20,6 +20,7 @@ Just some of the basics of Golang
     - [Variadic Function](https://github.com/vitorsvvv/go-basics/blob/master/02-Functions/05-Variadic-Function.go)
     - [Passing A Function As Parameter](https://github.com/vitorsvvv/go-basics/blob/master/02-Functions/06-Passing-A-Function-As-Parameter.go)
     - [Anonymous Function](https://github.com/vitorsvvv/go-basics/blob/master/02-Functions/07-Anonymous-Function.go)
+    - [Defer Panic Recover](https://github.com/vitorsvvv/go-basics/blob/master/02-Functions/08-Defer-Panic-Recover.go)
 - [03-Control Flow](https://github.com/vitorsvvv/go-basics/tree/master/03-Control-Flow)
     - [If-Else](https://github.com/vitorsvvv/go-basics/blob/master/03-Control-Flow/01-If-Else.go)
     - [Switch](https://github.com/vitorsvvv/go-basics/blob/master/03-Control-Flow/02-Switch.go)

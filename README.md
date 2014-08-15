@@ -56,10 +56,9 @@ Just some of the basics of Golang
 - [16-Compression - in progress](https://github.com/vitorsvvv/go-basics)
 - [17-Web Application](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application)
     - [Basic Web Server](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/01-Basic-Web-Server.go)
-    - [Basic Gin Framework - in progress](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/02-Basic-Gin-Framework.go)
-    - [Basic Gorilla Toolkit - in progress](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/03-Basic-Gorilla-Toolkit.go)
-    - [Basic Martini Framework - in progress](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/04-Basic-Martini-Framework.go)
-    - [Basic Revel Framework - in progress](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/05-Basic-Revel-Framework.go)
+    - [Basic Gin Framework](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/02-Basic-Gin-Framework.go)
+    - [Basic Gorilla Toolkit](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/03-Basic-Gorilla-Toolkit.go)
+    - [Basic Martini Framework](https://github.com/vitorsvvv/go-basics/blob/master/17-Web-Application/04-Basic-Martini-Framework.go)
 - [18-Templating - in progress](https://github.com/vitorsvvv/go-basics)
 - [19-String Manipulation - in progress](https://github.com/vitorsvvv/go-basics)
 - [99-Best Practices - in progress](https://github.com/vitorsvvv/go-basics)
@@ -108,10 +107,13 @@ You can also find me at [@vitorsvvv](https://twitter.com/vitorsvvv)
     - [Gin](http://gin-gonic.github.io/gin/)
     - [Gorilla](http://www.gorillatoolkit.org/)
     - [Martini](http://martini.codegangsta.io/)
+    - [Beego](https://github.com/astaxie/beego)
     - [Revel](http://revel.github.io/)
+    - [Traffic](https://github.com/pilu/traffic)
+    - [gocraft/web](https://github.com/gocraft/web)
+    - [List with more frameworks](https://github.com/hfeeki/go-web-frameworks)
 - IRC Channels
     - [Gin](http://webchat.freenode.net/?randomnick=1&channels=%23getgin)
-    - [Revel](http://webchat.freenode.net/?channels=revel&uio=d4)
 - Google Groups and Mailing Lists
     - [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
     - [golang-dev](https://groups.google.com/forum/#!forum/golang-dev)
@@ -122,7 +124,7 @@ You can also find me at [@vitorsvvv](https://twitter.com/vitorsvvv)
     - [Gin](mailto:getgin@librelist.org)
     - [Gorilla](http://groups.google.com/group/gorilla-web)
     - [Martini](https://groups.google.com/forum/#!forum/martini-go)
-    - [Revel](https://groups.google.com/forum/#!forum/revel-framework)
+
 
 ---
 

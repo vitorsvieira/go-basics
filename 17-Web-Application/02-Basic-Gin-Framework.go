@@ -1,38 +1,46 @@
 package main
 
+//run the command below before execute this file
+//go get github.com/gin-gonic/gin
 import (
-	"fmt"
-	"log"
-	"net/http"
+	"github.com/gin-gonic/gin"
 )
 
-func IndexHandler(res http.ResponseWriter, req *http.Request) {
+func IndexHandler(g *gin.Context) {
 
-	fmt.Fprintln(res, "<h1>Home Page</h1>")
-
+	g.String(200, "Home Page by Gin Framework")
 }
 
-func AboutHandler(res http.ResponseWriter, req *http.Request) {
+func AboutHandler(g *gin.Context) {
 
-	fmt.Fprintln(res, "<h1>About</h1>")
-
+	g.String(200, "About by Gin Framework")
 }
 
-func ContactHandler(res http.ResponseWriter, req *http.Request) {
+func ContactHandler(g *gin.Context) {
 
-	fmt.Fprintln(res, "<h1>Contact</h1>")
+	g.String(200, "Contact by Gin Framework")
+}
 
+func UserHandler(g *gin.Context) {
+
+	// ->/user/{name}/{city}
+	name := g.Params.ByName("name")
+	city := g.Params.ByName("city")
+	g.String(200, "%s, welcome to %s!", name, city)
 }
 
 func main() {
 
-	http.HandleFunc("/", IndexHandler)
-	http.HandleFunc("/about", AboutHandler)
-	http.HandleFunc("/contact", ContactHandler)
+	g := gin.Default()
 
-	err := http.ListenAndServe(":3000", nil)
+	g.GET("/", IndexHandler)
+	g.GET("/about", AboutHandler)
+	g.GET("/contact", ContactHandler)
+	g.GET("/user/:name/:city", UserHandler)
 
-	if err != nil {
-		log.Fatal("ERROR :-> ListenAndServe: ", err)
-	}
+	g.GET("/hello", func(g *gin.Context) {
+		g.String(200, "Hello from Gin Framework")
+	})
+
+	g.Run(":3000")
 }
